@@ -1,0 +1,94 @@
+body{
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+   
+    background-image: linear-gradient(to left,rgba(76, 93, 243, 0.87),rgba(234, 90, 247, 0.753));
+ 
+    /*background-color:powderblue;*/
+    color:black;
+      
+}
+#redes ul{
+    text-align: right;
+    margin: auto;
+       
+}
+#login div{
+    background-image: linear-gradient(to right, #a517ba, 5f1782);
+}
+
+
+li{
+    list-style-type: none;
+    margin: auto;
+}
+.nombrePerfil{
+    font-size: 3rem;
+}
+
+
+.col-6 img{
+    border-image: round;
+
+}
+.footer{
+    
+    text-align-last: center;
+}
+#sobreMi {
+    background: url(banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-repeat: round;
+   
+}
+#sobreMi h1{
+    
+     font-size: 2rem;
+     position: absolute;
+    top:20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+ }
+
+#sobreMi h2{
+   
+    font-size: 3rem;
+    position: absolute;
+    top:30%;
+    left: 20%;
+    transform: translate(-50%, -50%);}
+#experiencia h1{
+    margin: 5rem;
+}
+#educacion h1{
+    margin: 5rem;
+}
+#habilidades h1{
+    margin: 5rem;
+}
+#experiencia img{
+    margin-top: 35%;
+    height: auto;
+    position: relative;
+    transform: translate(70%, -70%);
+    border-radius: 20%;
+
+}
+#habilidades {
+    padding-bottom: 3rem;
+}
+
+
+    
